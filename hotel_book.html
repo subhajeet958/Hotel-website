@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="hotel_website.css">
+</head>
+</html>
+  <title>Hotel Hilton||Contact</title>
+</head>
+<body>
+  <header>
+      <nav id="navbar">
+      <div class="container">
+              <h1 class="logo"><a href="hotel_home.html">Hotel Hilton</a></h1>
+              <ul>
+                  <li><a  href="hotel_home.html">Home</a></li>
+                  <li><a href="hotel_about.html">About Us</a></li>
+                  <li><a  href="hotel_contact.html">Contact Us</a></li>
+                  <li><a class="current" href="hotel_book.html">Booking</a></li>
+                  <li><a href="hotel_log.html">Loging</a></li>
+              </ul>
+        </div>
+        </nav>  
+  </header>
+
+<section id="contact-form" class="py-3">
+   <div class="container">
+     <h1 class="l-heading"><span class="text-primary">Welcome to </span>Hotel Hilton.</h1>
+      <p>Enter Your booking Details</p>
+        <form action="process">
+   <div class="form-group">
+     <label id="name-label">Name:</label>
+     <input type="text" id="name" name="name" class="form" required placeholder="Type your name"><br><!--name--->
+   </div>
+   <div class="form-group">
+    <label id="number-label">Age:</label>
+     <input type="number" id="age" name="age" class="form" placeholder="Age" min=18 max=60 required><br><!---Age-->
+     <label id="number-label">Mobile Number:</label>
+     <input type="text" id="mobilenumber" name="mobilenumber" class="form" placeholder="Enter your mobile number" min=18 max=60 required><br><!---Mobilenumber-->
+   </div>
+   <div class="form-group">
+     <laber for="email">Email</laber>
+     <input type="email" name="email" id="email">
+   </div>
+   <div class="form-group">
+     <laber for="message">Message</laber>
+     <textarea type="email" name="message" id="message"></textarea>
+   </div>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+       </div>
+   </section>
+  </section>
+  <footer id="main-footer"> 
+      <p> Hotel Hilton &copy;2022 All Right Reserved.
+   </p>       
+  </footer>
+</body>
+</html>

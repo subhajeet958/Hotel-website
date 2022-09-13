@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="adlog.css">
+    <script>
+        function fg(){
+            document.getElementById('i').style.display='block';
+        }
+    </script>
+</head>
+<body>
+    <div class='base'>
+        <div class='hd'>
+            <h2>Signin</h2>
+        </div>
+        <div class='lin'>
+            <a href='/hospital/home'>home</a>
+            <div class='dropdown'>
+                <input type='button' value=Login class='dbtn' onclick='fg()'>
+                <div id='i' class='d_content'>
+                    <a href='/hospital/doctor'>Doctor</a><br>
+                    <a href='/hospital/patient'>Patient</a>
+                </div>
+            </div>
+            <a href='/hospital/admin'>Admin</a>
+            <a href='/hospital/contact'>contact</a>
+            <a href='/hospital/logout'>log out</a>
+        
+        </div>
+</html>
